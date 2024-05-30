@@ -1,0 +1,64 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+.gridContainer{
+  display: flex;
+  flex-direction: column-reverse;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: space-between;
+  align-items: stretch;
+  row-gap: 50px;
+}
+.loader {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   right: 50%;
+   transform: translate(-50%, -50%);
+}
+.rasm{
+  height: 240px;
+  width: 350px;
+  object-fit: cover;
+}
+.meta{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 10px;
+}
+.Cartdiv{
+   display: flex;
+   gap: 150px;
+}
+.Cartdiv svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--card-svg);
+  padding: 2.5px;
+  margin: 5px;
+  font-size: 30px;
+  border-radius: 50%;
+  transition:  0.4s;
+}
+.Cartdiv svg:hover{
+  background-color: var(--card-svgBg);
+  color: var(--card-bg);
+  border: 0.1px solid var(--card-svgBg);
+}
+.card{
+  background-color: var(--card-bg);
+  box-shadow: 0 0 5px 1px #3b3b3b53;
+}
+.card:hover{
+  zoom: 1.001;
+   box-shadow: 0 0 10px 5px  #673dc35d;
+
+}
+.price{
+  font-size: 20px;
+  color: var(--card-text);
+}
