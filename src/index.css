@@ -35,14 +35,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.body {
+body {
   height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--body-bg);
 }
 
-.dark-mode .body {
-  background-color: var(--body-bg);
+.dark-mode body {
+  background-color: #000;
 }
 
 #root {
