@@ -1,8 +1,8 @@
 :root {
   --header-bg: #673dc3;
-  --header-text: #fff;  
-  --btn-text: #8632c3;;   
-  --btn-activeBg: #000;   
+  --header-text: #fff;
+  --btn-text: #8632c3;
+  --btn-activeBg: #000;
   --btn-activeText: #fff;
   --card-bg: #fff;
   --card-text: #000;
@@ -10,20 +10,18 @@
   --card-svgBg: #673cd3;
   --body-bg: #fff;
 }
-
 .dark-mode {
-  --header-bg: #0d6bf7;        
-  --header-text: #eeeeee;     
-  --btn-text: #eeeeee;        
-  --btn-activeBg: #0642a3;      
-  --btn-activeText: #ffd369;    
-  --card-bg: #1c5cc2;          
-  --card-text: #eeeeee;         
-  --card-svg: #6410a8;          
-  --card-svgBg: #c6be1b;        
-  --body-bg: #000;  
+  --header-bg: #0d6bf7;
+  --header-text: #eeeeee;
+  --btn-text: #eeeeee;
+  --btn-activeBg: #0642a3;
+  --btn-activeText: #ffd369;
+  --card-bg: #1c5cc2;
+  --card-text: #eeeeee;
+  --card-svg: #6410a8;
+  --card-svgBg: #c6be1b;
+  --body-bg: #000;
 }
-
 * {
   margin: 0;
   padding: 0;
